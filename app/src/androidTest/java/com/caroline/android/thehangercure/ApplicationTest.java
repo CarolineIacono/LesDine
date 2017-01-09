@@ -1,4 +1,4 @@
-package com.caroline.android.bastille;
+package com.caroline.android.thehangercure;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;

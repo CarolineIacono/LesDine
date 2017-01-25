@@ -1,8 +1,9 @@
 <resources>
     <string name="app_name">The Hanger Cure</string>
     <string name="day_of_week">Hello! Today is %s.</string>
-    <string name="what_are_you_looking_for">Let\'s figure out what you should make for dinner. Are you looking for:</string>
+    <string name="what_are_you_looking_for">Hey, %s. Let\'s figure out what you should make for dinner.</string>
     <string name="red_meat">Red meat</string>
     <string name="chicken_or_vegetarian">Chicken or vegetarian</string>
     <string name="surprise_me">Surprise me</string>
+
 </resources>

@@ -29,6 +29,9 @@
             android:name=".HomeActivity"
             android:label="Landing Page" >
         </activity>
-
+        <activity
+            android:name=".ChickenActivity"
+            android:label="Landing Page" >
+        </activity>
     </application>
 </manifest>

@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        loginButton = (Button) findViewById(R.id.login);
+        loginButton = (Button) findViewById( R.id.login );
         loginButton.setOnClickListener(this);
         pdkClient = PDKClient.configureInstance(this, appID);
         pdkClient.onConnect(this);
@@ -49,7 +49,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         pdkClient.login(this, scopes, new PDKCallback() {
             @Override
             public void onSuccess(PDKResponse response) {
-                Log.d(getClass().getName(), response.getData().toString());
+                Log.d( getClass().getName(), response.getData().toString() );
                 onLoginSuccess();
             }
 

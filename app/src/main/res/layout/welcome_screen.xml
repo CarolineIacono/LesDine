@@ -27,13 +27,17 @@
         android:layout_height="wrap_content"
         android:id="@+id/dateTime"/>
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/chicken"/>
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/logout"/>
+        android:id="@+id/chicken"
+        android:layout_centerInParent="true"
+        android:text="Chicken dinner, always a winner"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/logout"
+        android:text="log out"/>
 </LinearLayout>

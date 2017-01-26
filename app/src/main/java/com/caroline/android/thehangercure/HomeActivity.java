@@ -19,10 +19,6 @@ import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Locale;
 
-/**
- * Created by carolinestewart on 1/24/17.
- */
-
 public class HomeActivity extends AppCompatActivity {
 
     private static boolean DEBUG = true;
